@@ -12,3 +12,4 @@ I asked copilot to "summarize django duration field" so that I could get a summa
 I asked copilot to give me a list of booking statuses for a movie 
 app because I wasn't sure what sort of statuses showed up on a 
 booking system. 
+
