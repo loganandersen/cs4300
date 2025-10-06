@@ -28,10 +28,10 @@ class Seat(models.Model) :
         (UNSCHEDULED, "Unscheduled")
     ]
 
-    seat_number = PositiveIntegerField("seat number")
+    seat_number = models.PositiveIntegerField("seat number")
     booking_status = models.CharField("booking status",max_length=5,choices=BOOKING_CHOICES,default=UNSCHEDULED)
 
-class Movie(models.Model) :
+class Booking(models.Model) :
     movie = models.CharField(max_length=200)
     seat = models.CharField(max_length=200)
     user = models.CharField(max_length=200)

@@ -13,3 +13,5 @@ I asked copilot to give me a list of booking statuses for a movie
 app because I wasn't sure what sort of statuses showed up on a 
 booking system. 
 
+I asked copilot why serializers are needed for HTML rest 
+framework and it explained that it turned models into json
