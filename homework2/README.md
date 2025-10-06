@@ -14,4 +14,7 @@ app because I wasn't sure what sort of statuses showed up on a
 booking system. 
 
 I asked copilot why serializers are needed for HTML rest 
-framework and it explained that it turned models into json
+framework and it explained that it turned models into json.
+
+I asked copilot what permission_classes was for view and 
+I think I just need AllowAny because I don't have any users.
