@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ["editor-landerse-19.devedu.io",
 # Application definition
 
 INSTALLED_APPS = [
+    'bookings.apps.BookingsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
