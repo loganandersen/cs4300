@@ -17,9 +17,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 # Rest framework stuff
-from rest_framework import routers, serializers, viewsets
+from rest_framework import routers
+from bookings import views
 
 router = routers.DefaultRouter()
+router.register(r'api/movies',views.MovieViewset)
+router.register(r'api/seats',views.SeatViewset)
+router.register(r'api/booking',views.BookingViewset)
+
 
 urlpatterns = [
     path('', include(router.urls)),

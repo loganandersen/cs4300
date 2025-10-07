@@ -1,5 +1,6 @@
 # Make serializers for the models
 from bookings.models import Movie, Seat, Booking
+from rest_framework import serializers
 
 class MovieSerializer(serializers.HyperlinkedModelSerializer) :
     class Meta :
