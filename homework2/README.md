@@ -1,5 +1,12 @@
 # Readme.md
+To run this program you can do the following steps
+1. cd into homework_2
+2. source myenv/bin/activate
+3. python3 manage.py runserver 0.0.0.0:3000
 
+
+I didn't get this program done in time and am turning it in for partial credit. Specifically I haven't done stages:
+3.4, 3.6, and 3.7. I procrastinated too long on it sorry.
 ## AI usage
 I used copilot as a form of better search. I asked copilot questions about my .bashrc and how to a folder to my executable path. 
 I asked it how where I can get the default bashrc. I found out that you can get the default bashrc from 
